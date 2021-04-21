@@ -1,4 +1,4 @@
-class ArithOpr
+class Modulus
 {
 	public static void main(String arg[])
 	{
