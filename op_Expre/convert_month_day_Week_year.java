@@ -1,4 +1,4 @@
-class ArithOpr
+class Days
 {
 	public static void main(String arg[])
 	{
