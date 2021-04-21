@@ -1,4 +1,4 @@
-class ArithOpr
+class BitWiseOpr
 {
 	public static void main(String arg[])
 	{
