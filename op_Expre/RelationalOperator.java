@@ -1,4 +1,4 @@
-class ArithOpr
+class RelationOpr
 {
 	public static void main(String arg[])
 	{
