@@ -1,4 +1,4 @@
-class ArithOpr
+class increment
 {
 	public static void main(String arg[])
 	{
