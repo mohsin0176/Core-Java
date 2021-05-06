@@ -1,26 +1,18 @@
-import java.awt.event.*;
-import javax.swing.*;
+import javax.swing.JFrame;
+ 
 
-public class ActionEventTest implements ActionListener
+public class JFrameTest extends JFrame
 {
-	ActionEventTest()
+	 
+	public JFrameTest()
 	{
-		JFrame f=new JFrame("BIIT");
-		JButton b=new JButton("Nessage");
-		f.add(b);
-		b.addActionListener(this);
-		f.setSize(200,100);
-		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		f.setVisible(true);
-	}
-
-	public void actionPerformed(ActionEvent e)
-	{
-		JOptionPane.showConfirmDialog(null,"Let's Learn Event Handling..","Just a test",JOptionPane.PLAIN_MESSAGE);
-
-	}
+		setSize(300,150);
+		setDefaultCloseOPeration(JFrame.EXIT_ON_CLOSE);
+		setTitle("let's Learn Swing");
+		setVisible(true);
+	} 
 	public static void main(String args[])
 	{
-		new ActionEventTest();
+		JFrame Test f=new JFrame Test();
 	}
 }
