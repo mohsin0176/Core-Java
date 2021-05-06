@@ -13,4 +13,14 @@ public class ActionEventTest implements ActionListener
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setVisible(true);
 	}
+
+	public void actionPerformed(ActionEvent e)
+	{
+		JOptionPane.showConfirmDialog(null,"Let's Learn Event Handling..","Just a test",JOptionPane.PLAIN_MESSAGE);
+
+	}
+	public static void main(String args[])
+	{
+		new ActionEventTest();
+	}
 }
